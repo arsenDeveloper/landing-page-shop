@@ -1,0 +1,48 @@
+@media (max-width: 480px) {
+	.footerSpan {
+		display: block;
+		text-align: center;
+		padding: 0;
+	}
+	form>div:nth-child(3),
+	form>div:nth-child(4) {
+		padding-left: 0px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+	.col-1-2 {
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.imgGwiazda {
+		margin: 10px;
+	}
+	.footerSpan {
+		display: block;
+		text-align: center;
+		padding: 0;
+	}
+
+}
+
+@media (min-width: 769px) {
+	
+	.imgspan {
+		width: 80%;
+		
+	}
+	
+	.imgGwiazda {
+		margin: 10px;
+	}
+	
+	.footerSpan {
+		width: 20%;
+		padding-top: 40px;;
+		float: left;
+	}
+	
+	
+}

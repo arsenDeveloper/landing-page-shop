@@ -1,0 +1,135 @@
+/* General styles ---- START*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #323232;
+	
+	padding: 0px;
+	margin: 0px;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background-color: #e5ceae;
+}
+
+
+/* General styles ---- STOP*/
+
+
+/*Header ---- START*/
+
+header>h1 {
+	text-transform: uppercase;
+	color: #30306d;
+	text-align: center;
+}
+
+
+/*Header ---- STOP*/
+
+
+/* Section Labels --- START*/
+
+#labels {
+	text-align: center;
+}
+
+#labels div {
+	display: inline-block;
+}
+
+#labels .icons {
+	width: 40px;
+	height: 40px;
+	margin: 20px;
+}
+
+#labels .boldSpan {
+	font-weight: 600;
+}
+
+
+/* Section Labels --- STOP*/
+
+
+/* Section FORM --- START*/
+
+form {
+	background-color: #e5ceae;
+	height: auto;
+	padding: 10px 60px;
+	margin: auto;
+	text-align: center;
+}
+
+form div>div {
+	margin: 15px;
+	display: inline-block;
+}
+
+form input[type="submit"] {
+	background-color: #30306d;
+	border: 1px solid #30306d;
+	width: auto;
+	padding: 5px 20px;
+	margin: 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+form .input {
+	border-top: 1px solid #b9b9b9;
+	border-left: 1px solid #b9b9b9;
+	border-right: 1px solid #b9b9b9;
+	border-bottom: 1px solid #30306d;
+	height: 30px;
+	width: 220px;
+}
+
+form>div:nth-child(3),
+form>div:nth-child(4) {
+	padding-left: 70px;
+}
+
+form #zalogujSie {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+/* Section FORM --- STOP*/
+
+img {
+	vertical-align: middle;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.imgspan {
+	max-width: 900px;
+	display: inline-block;
+	padding: 10px 30px;
+}
+
+.imgGwiazda {
+	width: 80px;
+	height: 80px;
+}
+
+.footerSpan {
+	color: #000;
+	opacity: 0.5;
+	padding: 20px;
+	height:auto;
+}
+
+.col-1-2 {
+	float: left;
+}
